@@ -1,4 +1,5 @@
 import { Typography } from '@material-tailwind/react'
+import sdgImage from '../../assets/pngwing.com.png';
 import React, { useContext } from 'react'
 import myContext from '../../context/data/myContext';
 
@@ -17,7 +18,7 @@ function HeroSection() {
                         <div className="mb-0">
                            
                             <div className="flex justify-center -mt-40">
-                                <img src="src\assets\pngwing.com.png" alt="" />
+                                <img src= {sdgImage} alt="" />
                             </div>
 
                            
