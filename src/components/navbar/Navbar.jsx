@@ -25,7 +25,7 @@ export default function Nav() {
 
     //* All NavList 
     const navList = (
-        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6   small-font">
             <Typography
                 as="li"
                 variant="small"
@@ -44,7 +44,7 @@ export default function Nav() {
                 className="p-1 font-normal"
                 style={{ color: mode === 'dark' ? 'white' : 'black' }}
             >
-                <Link to={'/allblogs'} className="flex items-center text-2xl">
+                <Link to={'/allblogs'} className="flex items-center text-2xl  lg:block small-font">
                     Blogs
                 </Link>
             </Typography>
@@ -57,7 +57,7 @@ export default function Nav() {
                     className="p-1 font-normal"
                     style={{ color: mode === 'dark' ? 'white' : 'black' }}
                 >
-                    <Link to={'/login2'} className="flex items-center text-2xl">
+                    <Link to={'/login2'} className="flex items-center text-2xl lg:block small-font">
                         Login
                     </Link>
                 </Typography>
@@ -81,16 +81,16 @@ export default function Nav() {
                     <Link to={'/'}>
                         <Typography
                             as="a"
-                            className="mr-4 ml-18 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
+                            className="mr-1 ml-0 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
                             style={{ color: mode === 'dark' ? 'white' : 'black' }}
                         >
                             {/* Logo Image  */}
                             <img
-                                className=' w-16 h-16 '
+                                className=' w-16 h-16  lg:block small-font'
                                 src={skylineLogo}
                             />
                             {/* Logo Text  */}
-                            <span className=" ml-2 text-4xl font-sans font-black"  style={{ color: mode === 'dark' ? 'white' : 'black' }}>
+                            <span className=" ml-3 text-4xl font-sans font-black lg:block small-font"  style={{ color: mode === 'dark' ? 'white' : 'black' }}>
                                 SKYLINE
                             </span>
                         </Typography>
@@ -103,9 +103,6 @@ export default function Nav() {
                         <div className="hidden lg:block">
                             {navList}
                         </div>
-
-                       
-                       
 
                         {/* Admin Profile Pic */}
                         <div>
