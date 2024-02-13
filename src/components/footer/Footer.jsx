@@ -12,8 +12,8 @@ function Footer() {
                 {/* Blog Logo  */}
                 <div className="flex title-font font-medium items-center  justify-center text-gray-900">
                     {/* logo  */}
-{/*                     <img className='w-10'
-                        src={skylineLogo} alt="logo" */}
+ <img className='w-10'
+                        src={skylineLogo} alt="logo"
                     />
                     {/* logo text  */}
                     <span className="ml-3 text-xl text-white">
