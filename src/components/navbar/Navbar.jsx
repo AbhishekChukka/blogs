@@ -81,7 +81,7 @@ export default function Nav() {
                     <Link to={'/'}>
                         <Typography
                             as="a"
-                            className="mr-4 ml-24 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
+                            className="mr-4 ml-18 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
                             style={{ color: mode === 'dark' ? 'white' : 'black' }}
                         >
                             {/* Logo Image  */}
@@ -90,7 +90,7 @@ export default function Nav() {
                                 src={skylineLogo}
                             />
                             {/* Logo Text  */}
-                            <span className=" ml-14 text-4xl font-sans font-black"  style={{ color: mode === 'dark' ? 'white' : 'black' }}>
+                            <span className=" ml-2 text-4xl font-sans font-black"  style={{ color: mode === 'dark' ? 'white' : 'black' }}>
                                 SKYLINE
                             </span>
                         </Typography>
