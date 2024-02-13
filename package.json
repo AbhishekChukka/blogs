@@ -1,5 +1,5 @@
 {
-  "homepage": "http://abhishekchukka.github.io/blogs",
+ 
   "name": "vite-project",
   
   "private": true,
@@ -10,9 +10,7 @@
   
   "scripts": {
   
-  "predeploy":"npm run dev",
-
-  "deploy":"gh-pages -d build",
+ 
     
   "dev": "vite",
   
