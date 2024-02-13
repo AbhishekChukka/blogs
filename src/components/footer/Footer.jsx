@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import myContext from '../../context/data/myContext';
-import skylineLogo from '../../assets/pngwing.com.png';
 
+import skylineLogo from '../../assets/pngwing.com.png';
 function Footer() {
     const context = useContext(myContext);
     const { mode } = context;
