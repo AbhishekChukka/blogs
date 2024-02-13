@@ -9,6 +9,7 @@ import {
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import myContext from "../../context/data/myContext";
+import skylineLogo from '../../assets/pngwing.com.png';
 // import SearchDialog from "../searchDialog/SearchDialog";
 // import ShareDialogBox from "../ShareDialogBox/ShareDialogBox";
 
@@ -86,7 +87,7 @@ export default function Nav() {
                             {/* Logo Image  */}
                             <img
                                 className=' w-16 h-16 '
-                                src='src\assets\meeting.png'
+                                src={skylineLogo}
                             />
                             {/* Logo Text  */}
                             <span className=" ml-14 text-4xl font-sans font-black"  style={{ color: mode === 'dark' ? 'white' : 'black' }}>
