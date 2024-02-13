@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import myContext from '../../context/data/myContext';
+import skylineLogo from '../../assets/pngwing.com.png';
 
 function Footer() {
     const context = useContext(myContext);
@@ -12,7 +13,7 @@ function Footer() {
                 <div className="flex title-font font-medium items-center  justify-center text-gray-900">
                     {/* logo  */}
                     <img className='w-10'
-                        src="src\assets\pngwing.com.png" alt="logo"
+                        src={skylineLogo} alt="logo"
                     />
                     {/* logo text  */}
                     <span className="ml-3 text-xl text-white">
