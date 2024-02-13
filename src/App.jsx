@@ -7,7 +7,7 @@ import {
 import Home from "./pages/home/Home";
 import Blog from "./pages/blog/Blog";
 import AllBlogs from "./pages/allBlogs/AllBlogs";
-import NoPage from "./pages/nopage/NoPage";
+
 import BlogInfo from "./pages/blogInfo/BlogInfo";
 
 import Login from "./pages/admin/adminLogin/login2";
@@ -28,7 +28,7 @@ function App() {
           <Route path="/login2" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/createblog" element={<CreateBlog />} />
-          <Route path="/*" element={<NoPage />} />
+         
         </Routes>
         <Toaster/>
       </Router>
